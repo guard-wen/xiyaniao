@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" role="img" aria-labelledby="orbit-title">
+  <title id="orbit-title">轨道系列流线圆弧扣 PU 腰带产品示意</title>
+  <defs>
+    <linearGradient id="orbit-leather" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8c3b35"/>
+      <stop offset=".4" stop-color="#64221f"/>
+      <stop offset="1" stop-color="#2d0d0c"/>
+    </linearGradient>
+    <linearGradient id="orbit-edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ac5b52"/>
+      <stop offset=".45" stop-color="#5c1e1b"/>
+      <stop offset="1" stop-color="#210706"/>
+    </linearGradient>
+    <linearGradient id="orbit-metal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f4eee7"/>
+      <stop offset=".18" stop-color="#9b9792"/>
+      <stop offset=".36" stop-color="#f5f1ea"/>
+      <stop offset=".6" stop-color="#6c6965"/>
+      <stop offset=".82" stop-color="#d9d3cb"/>
+      <stop offset="1" stop-color="#66625e"/>
+    </linearGradient>
+    <filter id="orbit-shadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="2" dy="26" stdDeviation="18" flood-color="#1a0908" flood-opacity=".45"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#orbit-shadow)" transform="rotate(-12 400 400)">
+    <path
+      d="M249 604c-86-38-120-141-75-231 48-97 170-142 273-101 89 35 139 125 118 211-13 56-57 99-111 119"
+      fill="none"
+      stroke="url(#orbit-edge)"
+      stroke-width="94"
+      stroke-linecap="round"
+    />
+    <path
+      d="M249 604c-86-38-120-141-75-231 48-97 170-142 273-101 89 35 139 125 118 211-13 56-57 99-111 119"
+      fill="none"
+      stroke="url(#orbit-leather)"
+      stroke-width="80"
+      stroke-linecap="round"
+    />
+    <path
+      d="M250 594c-79-38-111-132-70-216 45-91 161-133 258-94 83 34 129 117 109 196-12 51-53 91-103 110"
+      fill="none"
+      stroke="#d9a68c"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-dasharray="5 12"
+      opacity=".6"
+    />
+    <path
+      d="M245 613c-91-40-126-148-78-243 51-102 179-150 287-106 94 37 146 132 124 222-14 59-61 104-117 125"
+      fill="none"
+      stroke="#250a09"
+      stroke-width="1.8"
+      stroke-linecap="round"
+      stroke-dasharray="5 12"
+      opacity=".6"
+    />
+
+    <path
+      d="M463 193c99-30 187 2 214 77 30 84-31 173-121 193-62 14-121-17-154-65"
+      fill="none"
+      stroke="url(#orbit-edge)"
+      stroke-width="92"
+      stroke-linecap="round"
+    />
+    <path
+      d="M463 193c99-30 187 2 214 77 30 84-31 173-121 193-62 14-121-17-154-65"
+      fill="none"
+      stroke="url(#orbit-leather)"
+      stroke-width="78"
+      stroke-linecap="round"
+    />
+    <path
+      d="M466 201c91-27 174 3 199 73 28 78-29 161-112 180-57 13-112-16-143-60"
+      fill="none"
+      stroke="#d9a68c"
+      stroke-width="2"
+      stroke-linecap="round"
+      stroke-dasharray="5 12"
+      opacity=".56"
+    />
+
+    <path
+      d="M596 147c-7 39-24 68-53 88"
+      fill="none"
+      stroke="url(#orbit-edge)"
+      stroke-width="88"
+      stroke-linecap="round"
+    />
+    <path
+      d="M596 147c-7 39-24 68-53 88"
+      fill="none"
+      stroke="url(#orbit-leather)"
+      stroke-width="74"
+      stroke-linecap="round"
+    />
+
+    <g fill="#230806">
+      <circle cx="597" cy="130" r="8"/>
+      <circle cx="586" cy="165" r="8"/>
+      <circle cx="568" cy="198" r="8"/>
+    </g>
+
+    <g transform="translate(183 416) rotate(7)">
+      <path
+        d="M0 66C0 29 29 0 66 0h86c37 0 66 29 66 66v30c0 37-29 66-66 66H66C29 162 0 133 0 96V66Z"
+        fill="none"
+        stroke="url(#orbit-metal)"
+        stroke-width="20"
+      />
+      <path
+        d="M67 54c-16 0-23 18-11 29l21 20c8 8 20 2 20-9V16"
+        fill="none"
+        stroke="url(#orbit-metal)"
+        stroke-width="10"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <circle cx="32" cy="33" r="3" fill="#3b3936"/>
+      <circle cx="186" cy="128" r="3" fill="#3b3936"/>
+      <circle cx="32" cy="128" r="3" fill="#3b3936"/>
+      <circle cx="186" cy="33" r="3" fill="#3b3936"/>
+    </g>
+
+    <g transform="translate(514 648) rotate(-16)" fill="none" stroke="#d7b8a0" opacity=".48">
+      <path d="M4 0C0 24 4 44 20 58" stroke-width="3"/>
+      <path d="M14 5c-1 15 4 30 15 40" stroke-width="2"/>
+      <path d="M26 7c0 12 3 22 10 29" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>
